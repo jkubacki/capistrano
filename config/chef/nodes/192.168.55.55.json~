@@ -1,0 +1,15 @@
+{
+  "rvm": {
+      "default_ruby": "2.1.2",
+      "user_default_ruby": "2.1.2"
+  },
+  "rails": {
+    "version": "4.0.5"
+  },
+  "run_list": [
+	"recipe[rvm]"
+  ],
+  "automatic": {
+    "ipaddress": "192.168.55.55"
+  }
+}
